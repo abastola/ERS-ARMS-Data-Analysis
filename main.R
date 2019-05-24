@@ -1,4 +1,3 @@
-
 # Load the libraries
 library(pacman)
 pacman::p_load("dplyr", "data.table", "plyr", "tidyr", "ggplot2", "knitr", "ggthemes",
@@ -16,11 +15,11 @@ myKey = "6RsZmKx15kBm51TuChv7rhWhZZniKf6i56db4QPt"
 
 # Filter Definition for our Survey
 filters = list(
-  "year" = 2010:2017,
-  "state" = "all",
-  "report" = "farm Business Income Statement",
-  "variable" = "incfi",
-  "category" = "Production Specialty"
+  "year"      = 2010:2017,
+  "state"     = "all",
+  "report"    = "farm Business Income Statement",
+  "variable"  = "incfi",
+  "category"  = "Production Specialty"
 )
 
 # API POST request
